@@ -1,0 +1,33 @@
+<h2>每个表的文档需要包含哪些信息？</h2>
+<p class="subtitle">多选 - 选择你希望在 Word 文档中看到的内容</p>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="table-comment" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>表名 + 表注释</h3>
+      <p>表的基本信息，如表名和注释</p>
+    </div>
+  </div>
+  <div class="option" data-choice="columns" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>字段详情</h3>
+      <p>字段名、类型、长度、是否主键、是否可空、默认值、字段注释</p>
+    </div>
+  </div>
+  <div class="option" data-choice="indexes" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>索引信息</h3>
+      <p>索引名、索引字段、索引类型（唯一、普通、全文等）</p>
+    </div>
+  </div>
+  <div class="option" data-choice="foreign-keys" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>外键关系</h3>
+      <p>外键名、关联表、关联字段</p>
+    </div>
+  </div>
+</div>

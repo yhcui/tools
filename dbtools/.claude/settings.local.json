@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/Administrator/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/brainstorming/scripts/start-server.sh *)",
+      "Bash(npm --version)",
+      "Read(//d/code/**)",
+      "Bash(cp -r dbtools-tmp/* dbtools/)",
+      "Bash(cp dbtools-tmp/.gitignore dbtools/.gitignore)",
+      "Bash(cp dbtools-tmp/.git dbtools/ -r)",
+      "Bash(npm install *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(npx next *)",
+      "Bash(npm uninstall *)",
+      "Bash(npm list *)",
+      "Bash(timeout 8 npm run dev)",
+      "Bash(taskkill *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

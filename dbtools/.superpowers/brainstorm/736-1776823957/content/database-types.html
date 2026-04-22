@@ -1,0 +1,33 @@
+<h2>支持哪些数据库类型？</h2>
+<p class="subtitle">每种数据库需要独立的驱动和元数据查询逻辑</p>
+
+<div class="options" data-multiselect>
+  <div class="option" data-choice="mysql" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>MySQL</h3>
+      <p>最常用的关系型数据库，information_schema 查询表结构</p>
+    </div>
+  </div>
+  <div class="option" data-choice="postgres" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>PostgreSQL</h3>
+      <p>功能丰富的开源数据库，pg_catalog 系统表查询</p>
+    </div>
+  </div>
+  <div class="option" data-choice="sqlserver" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>SQL Server</h3>
+      <p>企业内部常用，sys.tables / sys.columns 系统视图</p>
+    </div>
+  </div>
+  <div class="option" data-choice="oracle" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Oracle</h3>
+      <p>大型企业级数据库，ALL_TAB_COLUMNS 等数据字典</p>
+    </div>
+  </div>
+</div>
